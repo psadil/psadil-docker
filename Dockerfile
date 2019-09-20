@@ -9,4 +9,5 @@ RUN install2.r --error \
     gganimate \
     png \
     gifski
+    
 RUN Rscript -e "blogdown::install_hugo(version = '0.51')"
