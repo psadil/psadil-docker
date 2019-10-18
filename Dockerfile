@@ -10,6 +10,7 @@ RUN install2.r --error \
     png \
     gifski \
     magick \
-    cowplot
+    cowplot \
+    CircStats
     
 RUN Rscript -e "blogdown::install_hugo(version = '0.51')"
