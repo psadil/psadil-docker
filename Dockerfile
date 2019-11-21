@@ -12,5 +12,7 @@ RUN install2.r --error \
     magick \
     cowplot \
     CircStats
-    
+
+RUN installGithub.r dahtah/imager 
+
 RUN Rscript -e "blogdown::install_hugo(version = '0.51')"
