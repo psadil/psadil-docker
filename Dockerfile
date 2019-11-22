@@ -11,7 +11,8 @@ RUN install2.r --error \
     gifski \
     magick \
     cowplot \
-    CircStats
+    CircStats \
+    here
 
 RUN installGithub.r dahtah/imager \
                     eliocamp/ggnewscale
