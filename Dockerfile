@@ -13,6 +13,7 @@ RUN install2.r --error \
     cowplot \
     CircStats
 
-RUN installGithub.r dahtah/imager 
+RUN installGithub.r dahtah/imager \
+                    eliocamp/ggnewscale
 
 RUN Rscript -e "blogdown::install_hugo(version = '0.51')"
