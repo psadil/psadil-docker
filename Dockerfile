@@ -17,4 +17,4 @@ RUN install2.r --error \
 RUN installGithub.r dahtah/imager \
                     eliocamp/ggnewscale
 
-RUN Rscript -e "blogdown::install_hugo(version = '0.51')"
+RUN Rscript -e "blogdown::install_hugo(version = '0.61.1')"
