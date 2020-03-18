@@ -12,7 +12,8 @@ RUN install2.r --error \
     magick \
     cowplot \
     CircStats \
-    here
+    here \
+    DiagrammeR
 
 RUN installGithub.r dahtah/imager \
                     eliocamp/ggnewscale
