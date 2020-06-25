@@ -13,7 +13,8 @@ RUN install2.r --error \
     cowplot \
     CircStats \
     here \
-    DiagrammeR
+    DiagrammeR \
+    formatR
 
 RUN installGithub.r dahtah/imager \
                     eliocamp/ggnewscale
